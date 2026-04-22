@@ -4,7 +4,7 @@ def detect_intent(message):
     if any(word in message for word in ["hi", "hello", "hey"]):
         return "greeting"
     
-    elif any(word in message for word in ["price", "pricing", "cost", "plan"]):
+    elif any(word in message for word in ["price", "pricing", "cost", "plan", "feature", "features"]):
         return "info"
     
     elif any(word in message for word in ["buy", "subscribe", "try", "sign up", "start", "want"]):

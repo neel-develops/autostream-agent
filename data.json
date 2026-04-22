@@ -12,5 +12,11 @@
   "policies": [
     "No refunds after 7 days",
     "24/7 support available only on Pro plan"
+  ],
+  "core_features": [
+    "Automated video generation",
+    "Multi-platform publishing (YouTube, Instagram)",
+    "AI-powered captioning",
+    "Analytics and insights dashboard"
   ]
 }

@@ -22,4 +22,7 @@ Features: {', '.join(data['pricing']['pro']['features'])}
     elif "refund" in query or "policy" in query:
         return "\n".join(data["policies"])
 
+    elif "feature" in query:
+        return "✨ AutoStream Core Features:\n- " + "\n- ".join(data.get("core_features", [])) + "\n\nAnd much more! Let me know if you want to check out our pricing plans."
+
     return "Ask me about pricing, plans, or features!"
